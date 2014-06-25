@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2DE7DF5195A6E6B00ECFFF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DE7DF4195A6E6B00ECFFF3 /* Foundation.framework */; };
+		A2DE7DF7195A6E6B00ECFFF3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DE7DF6195A6E6B00ECFFF3 /* CoreGraphics.framework */; };
+		A2DE7DF9195A6E6B00ECFFF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DE7DF8195A6E6B00ECFFF3 /* UIKit.framework */; };
+		A2DE7DFF195A6E6B00ECFFF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2DE7DFD195A6E6B00ECFFF3 /* InfoPlist.strings */; };
+		A2DE7E01195A6E6B00ECFFF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DE7E00195A6E6B00ECFFF3 /* main.m */; };
+		A2DE7E05195A6E6B00ECFFF3 /* ESAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DE7E04195A6E6B00ECFFF3 /* ESAppDelegate.m */; };
+		A2DE7E07195A6E6B00ECFFF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2DE7E06195A6E6B00ECFFF3 /* Images.xcassets */; };
+		A2DE7E0E195A6E6B00ECFFF3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DE7E0D195A6E6B00ECFFF3 /* XCTest.framework */; };
+		A2DE7E0F195A6E6B00ECFFF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DE7DF4195A6E6B00ECFFF3 /* Foundation.framework */; };
+		A2DE7E10195A6E6B00ECFFF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DE7DF8195A6E6B00ECFFF3 /* UIKit.framework */; };
+		A2DE7E18195A6E6B00ECFFF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2DE7E16195A6E6B00ECFFF3 /* InfoPlist.strings */; };
+		A2DE7E1A195A6E6B00ECFFF3 /* EasyShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DE7E19195A6E6B00ECFFF3 /* EasyShareTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2DE7E11195A6E6B00ECFFF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2DE7DE9195A6E6A00ECFFF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2DE7DF0195A6E6A00ECFFF3;
+			remoteInfo = EasyShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2DE7DF1195A6E6A00ECFFF3 /* EasyShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DE7DF4195A6E6B00ECFFF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2DE7DF6195A6E6B00ECFFF3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2DE7DF8195A6E6B00ECFFF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A2DE7DFC195A6E6B00ECFFF3 /* EasyShare-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyShare-Info.plist"; sourceTree = "<group>"; };
+		A2DE7DFE195A6E6B00ECFFF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2DE7E00195A6E6B00ECFFF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2DE7E02195A6E6B00ECFFF3 /* EasyShare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasyShare-Prefix.pch"; sourceTree = "<group>"; };
+		A2DE7E03195A6E6B00ECFFF3 /* ESAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESAppDelegate.h; sourceTree = "<group>"; };
+		A2DE7E04195A6E6B00ECFFF3 /* ESAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESAppDelegate.m; sourceTree = "<group>"; };
+		A2DE7E06195A6E6B00ECFFF3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A2DE7E0C195A6E6B00ECFFF3 /* EasyShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DE7E0D195A6E6B00ECFFF3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A2DE7E15195A6E6B00ECFFF3 /* EasyShareTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyShareTests-Info.plist"; sourceTree = "<group>"; };
+		A2DE7E17195A6E6B00ECFFF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2DE7E19195A6E6B00ECFFF3 /* EasyShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyShareTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2DE7DEE195A6E6A00ECFFF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DE7DF7195A6E6B00ECFFF3 /* CoreGraphics.framework in Frameworks */,
+				A2DE7DF9195A6E6B00ECFFF3 /* UIKit.framework in Frameworks */,
+				A2DE7DF5195A6E6B00ECFFF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DE7E09195A6E6B00ECFFF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DE7E0E195A6E6B00ECFFF3 /* XCTest.framework in Frameworks */,
+				A2DE7E10195A6E6B00ECFFF3 /* UIKit.framework in Frameworks */,
+				A2DE7E0F195A6E6B00ECFFF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2DE7DE8195A6E6A00ECFFF3 = {
+			isa = PBXGroup;
+			children = (
+				A2DE7DFA195A6E6B00ECFFF3 /* EasyShare */,
+				A2DE7E13195A6E6B00ECFFF3 /* EasyShareTests */,
+				A2DE7DF3195A6E6A00ECFFF3 /* Frameworks */,
+				A2DE7DF2195A6E6A00ECFFF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2DE7DF2195A6E6A00ECFFF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2DE7DF1195A6E6A00ECFFF3 /* EasyShare.app */,
+				A2DE7E0C195A6E6B00ECFFF3 /* EasyShareTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2DE7DF3195A6E6A00ECFFF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2DE7DF4195A6E6B00ECFFF3 /* Foundation.framework */,
+				A2DE7DF6195A6E6B00ECFFF3 /* CoreGraphics.framework */,
+				A2DE7DF8195A6E6B00ECFFF3 /* UIKit.framework */,
+				A2DE7E0D195A6E6B00ECFFF3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2DE7DFA195A6E6B00ECFFF3 /* EasyShare */ = {
+			isa = PBXGroup;
+			children = (
+				A2DE7E03195A6E6B00ECFFF3 /* ESAppDelegate.h */,
+				A2DE7E04195A6E6B00ECFFF3 /* ESAppDelegate.m */,
+				A2DE7E06195A6E6B00ECFFF3 /* Images.xcassets */,
+				A2DE7DFB195A6E6B00ECFFF3 /* Supporting Files */,
+			);
+			path = EasyShare;
+			sourceTree = "<group>";
+		};
+		A2DE7DFB195A6E6B00ECFFF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2DE7DFC195A6E6B00ECFFF3 /* EasyShare-Info.plist */,
+				A2DE7DFD195A6E6B00ECFFF3 /* InfoPlist.strings */,
+				A2DE7E00195A6E6B00ECFFF3 /* main.m */,
+				A2DE7E02195A6E6B00ECFFF3 /* EasyShare-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2DE7E13195A6E6B00ECFFF3 /* EasyShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2DE7E19195A6E6B00ECFFF3 /* EasyShareTests.m */,
+				A2DE7E14195A6E6B00ECFFF3 /* Supporting Files */,
+			);
+			path = EasyShareTests;
+			sourceTree = "<group>";
+		};
+		A2DE7E14195A6E6B00ECFFF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2DE7E15195A6E6B00ECFFF3 /* EasyShareTests-Info.plist */,
+				A2DE7E16195A6E6B00ECFFF3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2DE7DF0195A6E6A00ECFFF3 /* EasyShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2DE7E1D195A6E6B00ECFFF3 /* Build configuration list for PBXNativeTarget "EasyShare" */;
+			buildPhases = (
+				A2DE7DED195A6E6A00ECFFF3 /* Sources */,
+				A2DE7DEE195A6E6A00ECFFF3 /* Frameworks */,
+				A2DE7DEF195A6E6A00ECFFF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyShare;
+			productName = EasyShare;
+			productReference = A2DE7DF1195A6E6A00ECFFF3 /* EasyShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2DE7E0B195A6E6B00ECFFF3 /* EasyShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2DE7E20195A6E6B00ECFFF3 /* Build configuration list for PBXNativeTarget "EasyShareTests" */;
+			buildPhases = (
+				A2DE7E08195A6E6B00ECFFF3 /* Sources */,
+				A2DE7E09195A6E6B00ECFFF3 /* Frameworks */,
+				A2DE7E0A195A6E6B00ECFFF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2DE7E12195A6E6B00ECFFF3 /* PBXTargetDependency */,
+			);
+			name = EasyShareTests;
+			productName = EasyShareTests;
+			productReference = A2DE7E0C195A6E6B00ECFFF3 /* EasyShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2DE7DE9195A6E6A00ECFFF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ES;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = edu;
+				TargetAttributes = {
+					A2DE7E0B195A6E6B00ECFFF3 = {
+						TestTargetID = A2DE7DF0195A6E6A00ECFFF3;
+					};
+				};
+			};
+			buildConfigurationList = A2DE7DEC195A6E6A00ECFFF3 /* Build configuration list for PBXProject "EasyShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2DE7DE8195A6E6A00ECFFF3;
+			productRefGroup = A2DE7DF2195A6E6A00ECFFF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2DE7DF0195A6E6A00ECFFF3 /* EasyShare */,
+				A2DE7E0B195A6E6B00ECFFF3 /* EasyShareTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2DE7DEF195A6E6A00ECFFF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DE7DFF195A6E6B00ECFFF3 /* InfoPlist.strings in Resources */,
+				A2DE7E07195A6E6B00ECFFF3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DE7E0A195A6E6B00ECFFF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DE7E18195A6E6B00ECFFF3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2DE7DED195A6E6A00ECFFF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DE7E05195A6E6B00ECFFF3 /* ESAppDelegate.m in Sources */,
+				A2DE7E01195A6E6B00ECFFF3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DE7E08195A6E6B00ECFFF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DE7E1A195A6E6B00ECFFF3 /* EasyShareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2DE7E12195A6E6B00ECFFF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2DE7DF0195A6E6A00ECFFF3 /* EasyShare */;
+			targetProxy = A2DE7E11195A6E6B00ECFFF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2DE7DFD195A6E6B00ECFFF3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2DE7DFE195A6E6B00ECFFF3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A2DE7E16195A6E6B00ECFFF3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2DE7E17195A6E6B00ECFFF3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2DE7E1B195A6E6B00ECFFF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2DE7E1C195A6E6B00ECFFF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2DE7E1E195A6E6B00ECFFF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyShare/EasyShare-Prefix.pch";
+				INFOPLIST_FILE = "EasyShare/EasyShare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A2DE7E1F195A6E6B00ECFFF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyShare/EasyShare-Prefix.pch";
+				INFOPLIST_FILE = "EasyShare/EasyShare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A2DE7E21195A6E6B00ECFFF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EasyShare.app/EasyShare";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyShare/EasyShare-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EasyShareTests/EasyShareTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A2DE7E22195A6E6B00ECFFF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EasyShare.app/EasyShare";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyShare/EasyShare-Prefix.pch";
+				INFOPLIST_FILE = "EasyShareTests/EasyShareTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2DE7DEC195A6E6A00ECFFF3 /* Build configuration list for PBXProject "EasyShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DE7E1B195A6E6B00ECFFF3 /* Debug */,
+				A2DE7E1C195A6E6B00ECFFF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2DE7E1D195A6E6B00ECFFF3 /* Build configuration list for PBXNativeTarget "EasyShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DE7E1E195A6E6B00ECFFF3 /* Debug */,
+				A2DE7E1F195A6E6B00ECFFF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2DE7E20195A6E6B00ECFFF3 /* Build configuration list for PBXNativeTarget "EasyShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DE7E21195A6E6B00ECFFF3 /* Debug */,
+				A2DE7E22195A6E6B00ECFFF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2DE7DE9195A6E6A00ECFFF3 /* Project object */;
+}
