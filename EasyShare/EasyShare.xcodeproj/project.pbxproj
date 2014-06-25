@@ -361,6 +361,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyShare/EasyShare-Prefix.pch";
 				INFOPLIST_FILE = "EasyShare/EasyShare-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -374,6 +375,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EasyShare/EasyShare-Prefix.pch";
 				INFOPLIST_FILE = "EasyShare/EasyShare-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -438,6 +440,7 @@
 				A2DE7E1F195A6E6B00ECFFF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2DE7E20195A6E6B00ECFFF3 /* Build configuration list for PBXNativeTarget "EasyShareTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +449,7 @@
 				A2DE7E22195A6E6B00ECFFF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
