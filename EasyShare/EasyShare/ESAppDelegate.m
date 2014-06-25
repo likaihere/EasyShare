@@ -7,6 +7,7 @@
 //
 
 #import "ESAppDelegate.h"
+#import "ESMainViewController.h"
 
 @implementation ESAppDelegate
 
@@ -14,6 +15,9 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    ESMainViewController *main = [[ESMainViewController alloc] init];
+    UINavigationController *root = [[UINavigationController alloc] initWithRootViewController:main];
+    self.window.rootViewController = root;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
